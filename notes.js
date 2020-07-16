@@ -17,7 +17,12 @@ const addNote = (title, body) => {
         })
         saveNotes(notes)
         console.log(chalk.bgGreen('Note successfully added!'))
+<<<<<<< HEAD
         console.log('This is hotfix login')
+=======
+        console.log('Yes. It is true. Your note has been added!')
+        console.log('One more logging added!')
+>>>>>>> app-comment
     } else {
         console.log('')
         console.log(chalk.bgRed('Note title taken !. Please provide alternate title.'))
